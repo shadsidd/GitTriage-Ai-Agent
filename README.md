@@ -23,7 +23,7 @@ An intelligent GitHub security assistant that identifies real vulnerabilities an
     3. View and analyze results in the Dashboard
     4. Perform detailed triage in the Auto-Triage Console
     
-    
+
     ###Requirements
         All dependencies are listed in the requirements.txt file. 
         
