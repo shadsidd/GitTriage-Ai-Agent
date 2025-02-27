@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np  # Add direct NumPy import
+import numpy as np  
 import json
 import os
 import time
@@ -13,7 +13,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 
-# Correct Agno imports according to official documentation
+
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
 from agno.models.google import Gemini
@@ -26,11 +26,11 @@ if 'categorized_vulnerabilities' not in st.session_state:
 if 'triage_decisions' not in st.session_state:
     st.session_state.triage_decisions = {}
 if 'model_type' not in st.session_state:
-    st.session_state.model_type = "openai"  # Default model type
+    st.session_state.model_type = "openai"  
 if 'repos_list' not in st.session_state:
     st.session_state.repos_list = []
 if 'scan_results' not in st.session_state:
-    st.session_state.scan_results = {}  # To store results for multiple repos
+    st.session_state.scan_results = {}  
 if 'active_page' not in st.session_state:
     st.session_state.active_page = "Settings"
 
