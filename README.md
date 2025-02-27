@@ -25,34 +25,37 @@ An intelligent GitHub security assistant that identifies real vulnerabilities an
     
     
     ###Requirements
-        All dependencies are listed in the requirements.txt file. Install them using pip:
-
+        All dependencies are listed in the requirements.txt file. 
+        
+        #Install them using pip:
         pip install -r requirements.txt
-        Installation
-        Clone this repository:
-
-
-        git clone https://github.com/yourusername/github-security-scanner.git
-        cd github-security-scanner
-        Install the required dependencies:
-
+        
+        ##Installation
+        
+        #Clone this repository:
+        git clone https://github.com/shadsidd/GitTriage-Ai-Agent.git
+        
+        cd GitTriage-Ai-Agent
+        
+        #Install the required dependencies:
         pip install -r requirements.txt
+        
         Set up API keys (instructions in the Settings section of the application)
 
-        How to Run
-        The GitHub Security Scanner is a Streamlit application. To run it:
+        #How to Run
 
+        The GitHub Security Scanner is a Streamlit application. 
+        To run it:
         Navigate to the project directory:
 
-        cd github-security-scanner
-        Run the Streamlit application:
-
+        cd GitTriage-Ai-Agent
         
-
-        streamlit run app.py
+        #Run the Streamlit application
+        streamlit run GitAiAgent.py
+        
         The application will start and automatically open in your default web browser. If it doesn't, you can access it at http://localhost:8501
 
-        Configuration
+        #Configuration
         You'll need to configure the following API keys in the Settings section:
 
         GitHub API Token: A personal access token with repo and security_events permissions
