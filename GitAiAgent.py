@@ -1495,6 +1495,7 @@ def main():
         
         st.markdown("---")
         st.markdown("### Quick Status")
+    
         
         # Show quick status info
         if st.session_state.categorized_vulnerabilities:
@@ -1514,7 +1515,7 @@ def main():
             st.info("No scans completed yet")
         
         st.markdown("---")
-        
+        st.markdown("### Created by Shadab Siddiqui")
 
     # Display the selected page
     if st.session_state.active_page == "Settings":
